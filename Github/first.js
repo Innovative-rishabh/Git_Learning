@@ -16,3 +16,4 @@ console.log(footer);
 
 
 
+console.log("Latest Update");
