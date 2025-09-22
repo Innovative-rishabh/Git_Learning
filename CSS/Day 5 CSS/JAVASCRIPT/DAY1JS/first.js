@@ -1,0 +1,10 @@
+console.log("Hello World");
+let num =1;
+console.log(num);
+let name="Rishabh";
+console.log(name);
+const ids = 20;
+console. log (ids) ;
+var x = 10;
+x=20;
+console. log (x);

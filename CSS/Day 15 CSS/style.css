@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    
+    display: grid;
+    gap:0.5rem;
+    background-color:black;
+    padding: 4rem;
+   /* grid-template-columns: minmax(100px,200px) minmax(100px,200px) minmax(100px,200px) minmax(100px,200px);
+   grid-template-columns: repeat(auto-fit,minmax(100px,200px)); */
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: repeat(2,1fr);
+   /* justify-items: center;
+   align-items: center; */
+   place-items: center end;
+
+}
+.Box{
+    height: 100px;
+    width: 100px;
+    font-size:2rem;
+    background-color: yellowgreen;
+    color: black;
+
+}
+.Box2{
+    justify-self: start;
+    
+}

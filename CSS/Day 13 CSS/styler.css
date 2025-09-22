@@ -1,0 +1,38 @@
+.container{
+    height: 800px;
+    width: 800px;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 10px;
+    /* box-shadow: -5px -10px; (horizontal and vertical) */
+    /* box-shadow: -5px -10px  red; (color is added) */
+    /* box-shadow: -5px -10px 5px  red;(blud is adder) */
+    /* box-shadow: -5px -10px 5px 30px  red;(spread radius is added) */
+    /* box-shadow: 0px 0px 10px 30px yellow; */
+   /* box-shadow: inset 10px 10px red; */
+   transition-property: all;
+   transition-duration: 1s;
+   transition-timing-function: ease-in;
+   transition-delay: 1.5s;
+
+
+    
+
+}
+
+.box:hover{
+    background-color: olivedrab;
+    width: 600px;
+    height: 600px;
+   
+}

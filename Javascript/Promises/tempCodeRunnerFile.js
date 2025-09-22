@@ -1,0 +1,1 @@
+const Promises=fetch('http://api.weatherapi.com/v1/current.json?key=cf49c0bfca3e455f8a0153548251709&q=London&aqi=yes');

@@ -1,0 +1,17 @@
+h1{
+    color: rgb(190, 13, 86);
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+
+}
+body{
+    background-color: blanchedalmond;
+}
+
+h3{
+    color:#0ed02b;
+}
+p{
+    color: hsla(228,55%, 24%%,0.6);
+}

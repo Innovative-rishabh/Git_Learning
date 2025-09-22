@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+     width: 100%;
+     background-color: black;
+     display: flex;
+     align-items: center;
+   justify-content: center;
+}
+.orbit{
+    height: 100px;
+    width: 100px;
+  
+    position: relative;
+
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.mercury{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: mer;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ 
+
+}
+@keyframes mer{
+    from{
+        transform: rotate(0deg) translate(120px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(120px) rotate(-360deg);
+    }
+}
+.venus{
+    height:65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color:yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: ven;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ 
+
+}
+@keyframes ven{
+    from{
+        transform: rotate(0deg) translate(200px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(200px) rotate(-360deg);
+    }
+}
+.earth{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: ear;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ 
+
+}
+@keyframes ear{
+    from{
+        transform: rotate(0deg) translate(300px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(300px) rotate(-360deg);
+    }
+}
+.mars{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: mar;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ 
+
+}
+@keyframes mar{
+    from{
+        transform: rotate(0deg) translate(400px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(400px) rotate(-360deg);
+    }
+}
+.jupiter{
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color:rgb(199, 103, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: jup;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ 
+
+}
+@keyframes jup{
+    from{
+        transform: rotate(0deg) translate(500px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(500px) rotate(-360deg);
+    }
+}

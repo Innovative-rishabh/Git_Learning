@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+.first, .third{
+    display: inline-block;
+    height: 45vh;
+    width: 30vw;
+    background-color: blue;
+}
+.second, .fourth{
+    display: inline-block;
+    height: 45vh;
+    width: 70vw;
+    background-color: blue;
+}
+.rectangle{
+    height: 10vh;
+    width
+background-color: ;
+}

@@ -1,0 +1,47 @@
+.container{
+    background-color:blanchedalmond;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+  
+  
+}
+
+/* Note flex direction will identify my main axis  */
+/* Agar flex direction =row hai to main axis horizontal hogi aur cross axis vertical */
+/* Agar flex direction = column hai to main axis vertical hogi aur cross axis horizontal */
+/* By default flex direction = row hota hai  */
+/* justify-content main axis ke around kaam krta hai */
+/* align-items cross axis ke around kaam krta hai */
+
+.box{
+
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: orange;
+}
+/* .first{
+    font-size: 50px;
+
+}
+.second{
+    font-size: 25px;
+    
+} */

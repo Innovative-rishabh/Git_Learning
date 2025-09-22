@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: cadetblue;
+    position:fixed;
+    width: 100%;
+}
+main{
+padding-top: 60px;
+}

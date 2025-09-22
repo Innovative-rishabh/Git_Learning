@@ -1,0 +1,28 @@
+h2{
+    background-color: aqua;
+  width: 300px;
+  height: 200px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: brown;
+  border-radius: 20px;
+  padding: 10px;
+margin: 20px 50px 15px 0px;
+
+}
+h4{
+    background-color: plum;
+    border-width: 10px 20px 30px;
+    border-color: green;
+    border-style: solid;
+}
+ul{
+    background-color: pink;
+}
+p{
+    background-color: tomato;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+}

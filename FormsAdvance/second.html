@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+<fieldset>
+    <legend>IIT JEE Registration Form</legend>
+<!-- Full Name -->
+ <label for="name">Full Name:</label>
+ <input type="text" id="name" name="fname">
+
+ <br><br>
+<!-- Email -->
+<label for="email">Email:</label>
+ <input type="email" id="email" name="UserEmail">
+ <br><br>
+<label for="phone">Phone No:</label>
+ <input type="tel" id="phone" name="UserContactNumber">
+
+ <br><br>
+<!-- Password -->
+<label for="password">Password:</label>
+ <input type="password" id="password" name="UserPassword">
+
+ <br><br>
+ <!-- Gender -->
+  <label>Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gender" value="others">
+        <label for="others">Others</label>
+        <br>
+        <br>
+ <!-- Date of Birth -->
+ <label for="date">DOB:</label>
+  <input type="date" id="date" name="DOB" min="2001-01-01" max="2005-12-31">
+  <br><br>
+  <!-- School Name  -->
+  <label for="School">School Name:</label>
+  <input type="text" id="School" name="UserSchool's Name">
+  <br><br>
+  <!-- board -->
+  <label for="board">Board:</label>
+  <select name="board" id="board">
+      <option value="" disabled selected>Select your Board</option>
+      <option value="CBSE">CBSE</option>
+      <option value="BSEB">BSEB</option>
+      <option value="ICSE">ICSE</option>
+      <option value="MPBOARD">MPB</option>
+    </select>
+<br>
+<br>
+      <!-- Year of Passing  -->
+       
+      <label for="year">Year of Passing:</label>
+  <input type="number" id="year" name="year" min="2023" max="2025"> 
+      <!-- Exam Centre -->
+       <br><br>
+       <label for="centre">Exam Centre:</label>
+       <select name="Centre" id="centre">
+        <option value="" disabled selected>Select Exam Centre</option>
+        <option value="Motihari">Motihari</option>
+        <option value="Bhopal">Bhopal</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Goa">Goa</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Kolkata">Kolkata</option>
+
+       </select>
+       <br><br>
+       <!-- Register Button -->
+       <button>Register</button>
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.container{
+    background-color:blanchedalmond;
+    display: flex;
+    height: 800px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+.box1{
+    background-color: red;
+    /* order: 1; */
+    align-self:flex-end;
+}
+.box2{
+    background-color: yellow;
+    /* flex-grow: 1; */
+    flex-basis: 300px;
+}
+.box3{
+    background-color: green;
+    /* order: -1; */
+    /* flex-grow: 2; */
+align-self:flex-start;
+}
+.box4{
+    background-color: orange;
+}
+/* operation on flex items */
+/* example-order
+by default order of a flex item is 0
+if order=-1; then that flex item will be placed at starting
+and if order= anything order than negative or zero then that flex item will be placed at last */

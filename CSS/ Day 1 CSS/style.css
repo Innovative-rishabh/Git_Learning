@@ -1,0 +1,20 @@
+/* Select by elemen name */
+h1{
+    color: aquamarine;
+    background-color: black;
+}
+ul{
+    color: violet;
+    background-color: black;
+}
+/* Select by class name */
+/* You need to apply dot(.) then after you will write class name here(first is class name) */
+.first{
+    background-color: bisque;
+}
+/* select by id(note id hmesa unique hoti hai) */
+/* for accessing id we have to use # before the name of id */
+
+#third{
+    background-color: palevioletred;
+}

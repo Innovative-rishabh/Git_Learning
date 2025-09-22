@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(245, 213, 213);
+}
+.card:hover{
+    background-color: white;
+   border-color: white;
+
+}
+.off{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(280, 70, 250, 0.4);
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+.image{
+    position: relative;
+}
+.card{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 10px solid  rgb(245, 213, 213);
+}
+.Box{
+    display: inline-block;
+}
+.img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+.Restaurant ,  .food , .Location{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Restaurant_Name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.rating{
+    background-color: green;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    color: white;
+    border-radius: 8px;
+
+}
+.price , .Distance{
+    position: absolute ;
+    right: 5px;
+}
+.food , .Place{
+    font-size: 15px;
+    color: rgb(109, 107, 107);
+}
+.Distance{
+    font-size: 10px;
+    font-weight: bold;
+}
+.first{
+    margin-left: 400px;
+}
+.brand{
+    color: red;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.searching{
+    width: 300px;
+    margin-right: 50px;
+  position: relative;
+  bottom: 13px;
+  height: 30px;
+}
+button{
+    height: 50px;
+    width: 80px;
+    position:relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin: 50px;
+    background-color: white;
+    border: none;
+    color: rgb(114, 111, 111);
+}
+    
+
+.head{
+    background-color: white;
+}
+.img3{
+    height: 70px;
+    width: 70px;
+}
+.dine{
+    position:relative;
+    bottom: 22px;
+    font-size: 20px;
+    color: rgb(114, 111, 111);
+}
+
+.third{
+    height: 500px;
+
+    background-color: grey;
+}
+.second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.dining{
+    margin-left: 200px;
+}
