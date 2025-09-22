@@ -11,4 +11,6 @@ const upi="Integrated UPI";
 console.log(upi);
 
 
+const footer="footer added in our website ";
+console.log(footer);
 
